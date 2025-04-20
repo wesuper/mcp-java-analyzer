@@ -1,0 +1,19 @@
+# Git平台认证配置
+git:
+  github:
+    token: ""  # GitHub个人访问令牌
+  gitlab:
+    token: ""  # GitLab个人访问令牌
+  gitee:
+    token: ""  # Gitee个人访问令牌
+
+# 日志配置
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# 缓存配置
+cache:
+  enabled: true
+  max_size: 100  # 最大缓存项数
+  ttl: 3600  # 缓存项生存时间（秒） 

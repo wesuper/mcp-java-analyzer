@@ -1,0 +1,9 @@
+aiohttp>=3.8.0
+beautifulsoup4>=4.10.0
+asyncio>=3.4.3
+fastmcp>=0.1.0
+gitpython>=3.1.0
+javalang>=0.13.0
+requests>=2.25.0
+pyyaml>=5.4.0
+pytest>=6.0.0 
